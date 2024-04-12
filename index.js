@@ -14,8 +14,8 @@ app.get('/api/hello', (req, res) => {
 });
 
 const port = 7002; // port should be inputted correctly on the app
-const url = `http://127.0.0.1:${port}/` // url should be inputted correctly on the app
-
+const url = `http://127.0.0.1:${port}/`; // url should be inputted correctly on the app
+const field_url = `http://127.0.0.1:7002/`; // to be automatically inputted when file is selected
 app.listen(port, () => {
 	console.log(`Server running at ${url}`);
 });
